@@ -1,0 +1,60 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+/* Nav Style */
+nav{
+    display: flex;
+    background-color: #211D1D;
+    padding: 10 px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none; 
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color:gray;
+}
+
+nav .brand_image{
+    display: flex;
+}
+
+nav .brand_image p{
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* Main Style */
+
+.main_section{
+    padding: 20%;
+    text-align: center;
+    font-weight: bold;
+   
+
+}
+
+.main_section h1{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: #9A9898;
+}
