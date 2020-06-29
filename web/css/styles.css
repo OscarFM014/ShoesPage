@@ -1,17 +1,44 @@
+
+/* Variables */
+
+:root{
+    --green-color: #00980C;
+    --greenDark-color: #017e0c;
+    --white-color: white;
+    --gray-color: #9A9898;
+    --grayDark-color:#211D1D;
+
+
+}
+
 html,body{
     padding: 0px;
     margin: 0px;
-    font-size: 12px;
+    font-size: 15px;
     font-family: Helvetica;
     font-weight: lighter;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: 500;
+    color:var(--gray-color);
+}
+
+h2{
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color:var(--gray-color);
 }
 
 /* Nav Style */
 nav{
     display: flex;
-    background-color: #211D1D;
+    background-color: var(--grayDark-color);
     padding: 10 px;
-    color: white;
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -21,16 +48,17 @@ nav ul{
 
 nav li{
     padding-left: 20px;
+    padding-right: 20px;
     list-style: none; 
 }
 
 nav li a{
-    color: white;
+    color: var(--white-color);
     text-decoration: none;
 }
 
 nav li a:hover {
-    color:gray;
+    color:var(--gray-color);
 }
 
 nav .brand_image{
@@ -39,22 +67,121 @@ nav .brand_image{
 
 nav .brand_image p{
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+nav .brand_image:hover p{
+    color: var(--gray-color);
+    cursor: pointer;
 }
 
 /* Main Style */
 
 .main_section{
-    padding: 20%;
+    padding: 15%;
     text-align: center;
-    font-weight: bold;
-   
-
 }
 
-.main_section h1{
-    font-size: 30px;
-    font-family: Helvetica;
-    font-weight: lighter;
-    color: #9A9898;
+
+.products{
+    background-image: url("../images/fondoCurvo.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.product{
+    padding: 15px;
+    margin-top: -440px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 2px;
+}
+
+.image_content{
+    text-align: center;
+}
+
+.image_content img{
+    width: 150px;
+    height: 100px;
+}
+
+.main_button{
+    background-color:var(--green-color) ;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: var(--greenDark-color);
+}
+
+/* Benefits Style */
+
+.benefits{
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.benefit{
+    padding: 15px;
+    margin-top: -140px;
+}
+
+.image_benefits img{
+    width: 270px;
+    height: 130px;
+    border-radius: 10%;
+}
+
+/* Mentions Style*/
+
+.mentions{
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.mention{
+    padding: 15px;
+    margin-top: -240px;
+    border: 0px;
+}
+
+.mention .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 1px;
+   
+}
+
+.image_mention img{
+    width: 250px;
+    height: 130px;
+    border-radius: 20%;
+}
+
+.mentions_title{
+    border-bottom: 1px solid var(--grayDark-color);
+    text-align: center;
+    padding: 15px;
 }
