@@ -1,3 +1,30 @@
 @media (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 4%;
+    }
+    
+    .benefits{
+        display: inherit;
+        height: auto;
+    }
 
+    .benefit{
+        margin-top: auto;
+    }
+
+    .mentions{
+        display: inherit;
+        height: auto;
+    }
+
+    .mention{
+        margin-top: auto;
+    }
 }
