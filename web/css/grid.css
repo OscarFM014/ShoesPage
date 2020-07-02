@@ -13,7 +13,7 @@
     border-radius: 10%;
 }
 
-.row .col-8{
+.container .row .col-8 p{
     display: flex;
     align-items: center;
     justify-content: center;
