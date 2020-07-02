@@ -224,8 +224,19 @@ nav a {
     margin-top: 10px;
 }
 
+/* FAQS */
+.faqs_title{
+    padding-left: 15%;
+}
 
-/* ------------------------------------------- Footer */
+.faq{
+    padding-left: 17%;
+}
+
+
+
+
+/*Footer */
 footer{
     display: flex;
     justify-content: space-between;
@@ -236,4 +247,10 @@ footer{
   }
   .contact a{
     color: var(--green-color);
+  }
+
+  
+  .term:hover{
+    color: var(--gray-color);
+    cursor: pointer;
   }
