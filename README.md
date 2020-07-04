@@ -26,7 +26,7 @@ To visualize the web page on your web browser:
 + JavaScript - The interaction on the page
 
 ## Authors 🖋
-+ **Oscar Fernandez** *- Backend Developer -* [OscarFM014](https://github.com/OscarFM014)
++ **Oscar Fernandez** *- Web Developer -* [OscarFM014](https://github.com/OscarFM014)
 
 See also the list of [**contributors**](https://github.com/OscarFM014/diversify/graphs/contributors) who participated in this project.
 
